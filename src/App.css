@@ -1,0 +1,41 @@
+.expenses {
+  font-size: 30px;
+}
+
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgba(32, 30, 30, 0.204);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.priceExpense {
+  color: white;
+  background-color: rgba(28, 28, 174, 0.87);
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.priceAndIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.deleteIcon {
+  font-size: 1.5em;
+}
+
+.InputSearch {
+  padding: 5px 30px;
+  text-align: center;
+  /* outline: none; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
