@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/manager-budget/static/css/main.319ba6bb.css",
+    "main.js": "/manager-budget/static/js/main.e2a8714a.js",
+    "index.html": "/manager-budget/index.html",
+    "main.319ba6bb.css.map": "/manager-budget/static/css/main.319ba6bb.css.map",
+    "main.e2a8714a.js.map": "/manager-budget/static/js/main.e2a8714a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319ba6bb.css",
+    "static/js/main.e2a8714a.js"
+  ]
+}
