@@ -9,6 +9,7 @@ const AddExpenseForm = () => {
 
   const onClick = (e) => {
     e.preventDefault();
+
     const expense = {
       id: uuidv4(),
       name: name,
@@ -19,7 +20,10 @@ const AddExpenseForm = () => {
         type: "ADD_EXPENSE",
         payload: expense,
       });
+    } else {
+      alert("Сomplete all fields!");
     }
+
     setCost("");
     setName("");
   };
