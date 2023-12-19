@@ -1,6 +1,7 @@
-import { createContext, useReducer } from "react";
+import { ReactNode, createContext, useReducer } from "react";
+import { IAction, IState } from "../interfaces";
 
-const AppReducer = (state, action) => {
+const AppReducer = (state: IState, action: IAction) => {
   switch (action.type) {
     case "ADD_EXPENSE":
       return {
@@ -11,7 +12,7 @@ const AppReducer = (state, action) => {
       return {
         ...state,
         expenses: state.expenses.filter(
-          (expense) => expense.id !== action.payload
+          (expense) => expense.id !== action.payload.id
         ),
       };
     default:
@@ -19,14 +20,18 @@ const AppReducer = (state, action) => {
   }
 };
 
-const initialState = {
+const initialState: IState = {
   budget: 2000,
   expenses: [],
 };
 
-export const AppContext = createContext();
+const AppContext = createContext(initialState);
 
-export const AppProvider = ({ children }) => {
+interface Props {
+  children: ReactNode;
+}
+
+const AppProvider = ({ children }: Props) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
   return (
@@ -37,3 +42,5 @@ export const AppProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
+
+export { AppContext, AppProvider };
