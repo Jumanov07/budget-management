@@ -21,7 +21,7 @@ const ExpenseItem = ({ name, id, cost }: IExpense) => {
       <div>
         <span className="priceExpense">${cost}</span>
 
-        <TiDelete size="1.5em" onClick={handleDeleteExpense} />
+        <TiDelete className="dlt" size="1.5em" onClick={handleDeleteExpense} />
       </div>
     </li>
   );

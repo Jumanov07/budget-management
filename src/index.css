@@ -52,3 +52,7 @@
   align-items: end;
   gap: 10px;
 }
+
+.dlt {
+  cursor: pointer;
+}
