@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/budget-management/static/css/main.9fba6194.css",
-    "main.js": "/budget-management/static/js/main.fc4578a5.js",
+    "main.css": "/budget-management/static/css/main.9b8c669d.css",
+    "main.js": "/budget-management/static/js/main.ff9883f7.js",
     "index.html": "/budget-management/index.html",
-    "main.9fba6194.css.map": "/budget-management/static/css/main.9fba6194.css.map",
-    "main.fc4578a5.js.map": "/budget-management/static/js/main.fc4578a5.js.map"
+    "main.9b8c669d.css.map": "/budget-management/static/css/main.9b8c669d.css.map",
+    "main.ff9883f7.js.map": "/budget-management/static/js/main.ff9883f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fba6194.css",
-    "static/js/main.fc4578a5.js"
+    "static/css/main.9b8c669d.css",
+    "static/js/main.ff9883f7.js"
   ]
 }
